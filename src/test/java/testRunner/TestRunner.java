@@ -6,7 +6,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
 		
-"./src/test/resources/featrues/0000/Login.feature",
+		"./src/test/resources/featrues/0000/Login.feature",
+		//"./src/test/resources/featrues/0000/Navigations.feature",
 
 },
 // To generate the step definition class
